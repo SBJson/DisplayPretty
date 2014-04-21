@@ -1,0 +1,10 @@
+PODS:
+  - SBJson (4.0.1)
+
+DEPENDENCIES:
+  - SBJson (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  SBJson: a4f2b0dd2e1e79fc6ea990f021dfc6901d1f9cf1
+
+COCOAPODS: 0.32.1
