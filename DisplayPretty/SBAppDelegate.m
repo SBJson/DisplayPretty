@@ -8,11 +8,23 @@
 
 #import "SBAppDelegate.h"
 
+@interface SBAppDelegate () < NSTextViewDelegate >
+
+@property (assign) IBOutlet NSTextView *input;
+@property (assign) IBOutlet NSTextView *output;
+
+@end
+
 @implementation SBAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+}
+
+- (void)textDidChange:(NSNotification *)notification
+{
+    self.output.string = self.input.string;
 }
 
 @end
