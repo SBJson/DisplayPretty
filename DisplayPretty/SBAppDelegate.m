@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 Stig Brautaset. All rights reserved.
 //
 
-#import <SBJson4.h>
+#import <SBJson5.h>
 #import "SBAppDelegate.h"
 
 @interface SBAppDelegate () < NSTextViewDelegate >
 
-@property (strong) SBJson4Writer *writer;
+@property (strong) SBJson5Writer *writer;
 @property (assign) IBOutlet NSTextView *input;
 @property (assign) IBOutlet NSTextView *output;
 
@@ -21,9 +21,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    self.writer = [[SBJson4Writer alloc] init];
-    self.writer.humanReadable = YES;
-    self.writer.sortKeys = YES;
+    self.writer = [SBJson5Writer writerWithMaxDepth:32
+                                      humanReadable:YES
+                                           sortKeys:YES];
 }
 
 - (void)textDidChange:(NSNotification *)notification
@@ -37,7 +37,11 @@
         self.output.string = err.description;
     };
 
-    id parser = [SBJson4Parser parserWithBlock:block allowMultiRoot:NO unwrapRootArray:NO errorHandler:eh];
+    id parser = [SBJson5Parser parserWithBlock:block
+                                allowMultiRoot:NO
+                               unwrapRootArray:NO
+                                      maxDepth:32
+                                  errorHandler:eh];
     [parser parse:[self.input.string dataUsingEncoding:NSUTF8StringEncoding]];
 }
 

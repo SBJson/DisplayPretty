@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		635B134766ED43B19004110E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEAA4EC2EDE4C95AB4F517F /* libPods.a */; };
+		63AAA561CE3D870BB0896367 /* Pods_DisplayPrettyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BBB035BA0169E9BBB44D74 /* Pods_DisplayPrettyTests.framework */; };
 		D7C349AD1905CACA00BC2347 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C349AC1905CACA00BC2347 /* Cocoa.framework */; };
 		D7C349B71905CACA00BC2347 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7C349B51905CACA00BC2347 /* InfoPlist.strings */; };
 		D7C349B91905CACA00BC2347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C349B81905CACA00BC2347 /* main.m */; };
@@ -19,6 +19,7 @@
 		D7C349CD1905CACA00BC2347 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C349AC1905CACA00BC2347 /* Cocoa.framework */; };
 		D7C349D51905CACA00BC2347 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7C349D31905CACA00BC2347 /* InfoPlist.strings */; };
 		D7C349D71905CACA00BC2347 /* DisplayPrettyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C349D61905CACA00BC2347 /* DisplayPrettyTests.m */; };
+		FDCBDA93529E2867C9CFE622 /* Pods_DisplayPretty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D1E2D60FD23D5280E1BB71 /* Pods_DisplayPretty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AAEAA4EC2EDE4C95AB4F517F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BBB035BA0169E9BBB44D74 /* Pods_DisplayPrettyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisplayPrettyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10738750DF8927C9F0D3428B /* Pods-DisplayPretty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisplayPretty.debug.xcconfig"; path = "Target Support Files/Pods-DisplayPretty/Pods-DisplayPretty.debug.xcconfig"; sourceTree = "<group>"; };
+		11118C67E9A23820C619C217 /* Pods-DisplayPrettyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisplayPrettyTests.release.xcconfig"; path = "Target Support Files/Pods-DisplayPrettyTests/Pods-DisplayPrettyTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DF3BE69C6D95EE9CEC80B35 /* Pods-DisplayPrettyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisplayPrettyTests.debug.xcconfig"; path = "Target Support Files/Pods-DisplayPrettyTests/Pods-DisplayPrettyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37D1E2D60FD23D5280E1BB71 /* Pods_DisplayPretty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisplayPretty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C349A91905CACA00BC2347 /* DisplayPretty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayPretty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C349AC1905CACA00BC2347 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D7C349AF1905CACA00BC2347 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -52,7 +57,7 @@
 		D7C349D21905CACA00BC2347 /* DisplayPrettyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DisplayPrettyTests-Info.plist"; sourceTree = "<group>"; };
 		D7C349D41905CACA00BC2347 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7C349D61905CACA00BC2347 /* DisplayPrettyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayPrettyTests.m; sourceTree = "<group>"; };
-		DB109054D79B4477904DA2B9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F4F57A8B68852BC99CCBC9C5 /* Pods-DisplayPretty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisplayPretty.release.xcconfig"; path = "Target Support Files/Pods-DisplayPretty/Pods-DisplayPretty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C349AD1905CACA00BC2347 /* Cocoa.framework in Frameworks */,
-				635B134766ED43B19004110E /* libPods.a in Frameworks */,
+				FDCBDA93529E2867C9CFE622 /* Pods_DisplayPretty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +76,24 @@
 			files = (
 				D7C349CD1905CACA00BC2347 /* Cocoa.framework in Frameworks */,
 				D7C349CC1905CACA00BC2347 /* XCTest.framework in Frameworks */,
+				63AAA561CE3D870BB0896367 /* Pods_DisplayPrettyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ADFAC75E164D9EB7BF4AD85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10738750DF8927C9F0D3428B /* Pods-DisplayPretty.debug.xcconfig */,
+				F4F57A8B68852BC99CCBC9C5 /* Pods-DisplayPretty.release.xcconfig */,
+				1DF3BE69C6D95EE9CEC80B35 /* Pods-DisplayPrettyTests.debug.xcconfig */,
+				11118C67E9A23820C619C217 /* Pods-DisplayPrettyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D7C349A01905CACA00BC2347 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +101,7 @@
 				D7C349D01905CACA00BC2347 /* DisplayPrettyTests */,
 				D7C349AB1905CACA00BC2347 /* Frameworks */,
 				D7C349AA1905CACA00BC2347 /* Products */,
-				DB109054D79B4477904DA2B9 /* Pods.xcconfig */,
+				5ADFAC75E164D9EB7BF4AD85 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +120,8 @@
 				D7C349AC1905CACA00BC2347 /* Cocoa.framework */,
 				D7C349CB1905CACA00BC2347 /* XCTest.framework */,
 				D7C349AE1905CACA00BC2347 /* Other Frameworks */,
-				AAEAA4EC2EDE4C95AB4F517F /* libPods.a */,
+				37D1E2D60FD23D5280E1BB71 /* Pods_DisplayPretty.framework */,
+				00BBB035BA0169E9BBB44D74 /* Pods_DisplayPrettyTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,11 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7C349DA1905CACA00BC2347 /* Build configuration list for PBXNativeTarget "DisplayPretty" */;
 			buildPhases = (
-				1B817016172F43439871CD22 /* Check Pods Manifest.lock */,
+				442FF825E4908BD2E00D950E /* [CP] Check Pods Manifest.lock */,
 				D7C349A51905CACA00BC2347 /* Sources */,
 				D7C349A61905CACA00BC2347 /* Frameworks */,
 				D7C349A71905CACA00BC2347 /* Resources */,
-				F00EE0ECED334FBBA917D112 /* Copy Pods Resources */,
+				7D077CA14A358D83D81DA4B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7C349DD1905CACA00BC2347 /* Build configuration list for PBXNativeTarget "DisplayPrettyTests" */;
 			buildPhases = (
+				288196791AF2294007E55327 /* [CP] Check Pods Manifest.lock */,
 				D7C349C61905CACA00BC2347 /* Sources */,
 				D7C349C71905CACA00BC2347 /* Frameworks */,
 				D7C349C81905CACA00BC2347 /* Resources */,
@@ -207,7 +226,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SB;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Stig Brautaset";
 				TargetAttributes = {
 					D7C349C91905CACA00BC2347 = {
@@ -220,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -257,34 +277,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B817016172F43439871CD22 /* Check Pods Manifest.lock */ = {
+		288196791AF2294007E55327 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisplayPrettyTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F00EE0ECED334FBBA917D112 /* Copy Pods Resources */ = {
+		442FF825E4908BD2E00D950E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisplayPretty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D077CA14A358D83D81DA4B1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisplayPretty/Pods-DisplayPretty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SBJson/SBJson.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SBJson.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisplayPretty/Pods-DisplayPretty-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -357,22 +409,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -395,23 +462,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -425,13 +506,15 @@
 		};
 		D7C349DB1905CACA00BC2347 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB109054D79B4477904DA2B9 /* Pods.xcconfig */;
+			baseConfigurationReference = 10738750DF8927C9F0D3428B /* Pods-DisplayPretty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DisplayPretty/DisplayPretty-Prefix.pch";
 				INFOPLIST_FILE = "DisplayPretty/DisplayPretty-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.sbjson.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -439,13 +522,15 @@
 		};
 		D7C349DC1905CACA00BC2347 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB109054D79B4477904DA2B9 /* Pods.xcconfig */;
+			baseConfigurationReference = F4F57A8B68852BC99CCBC9C5 /* Pods-DisplayPretty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DisplayPretty/DisplayPretty-Prefix.pch";
 				INFOPLIST_FILE = "DisplayPretty/DisplayPretty-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.sbjson.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,6 +538,7 @@
 		};
 		D7C349DE1905CACA00BC2347 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF3BE69C6D95EE9CEC80B35 /* Pods-DisplayPrettyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DisplayPretty.app/Contents/MacOS/DisplayPretty";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -467,6 +553,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "DisplayPrettyTests/DisplayPrettyTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.sbjson.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -475,6 +562,7 @@
 		};
 		D7C349DF1905CACA00BC2347 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11118C67E9A23820C619C217 /* Pods-DisplayPrettyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DisplayPretty.app/Contents/MacOS/DisplayPretty";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -485,6 +573,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DisplayPretty/DisplayPretty-Prefix.pch";
 				INFOPLIST_FILE = "DisplayPrettyTests/DisplayPrettyTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.sbjson.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
